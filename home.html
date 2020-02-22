@@ -1,0 +1,30 @@
+<div class="container container1 d-flex">
+    <div ng-repeat="item in items" class="d-flex flex-column" style="width: 100%">
+        <img src="images/{{ item.image }}" alt="" style="width: auto; height: 800px;">
+        <div class="reng">
+            <h2>{{ item.title }}</h2>
+            <p>{{ item.text }}</p>
+        </div>
+    </div>
+</div>
+<div class="container  container1 d-flex flex-column">
+    <div class="flex-column">
+        <div ng-repeat="match in matches" class="d-flex flex-column">
+            <div class="reng">
+                <h4>{{ match.title1 }}</h4>
+            
+                <img src="images/{{ match.image }}" alt="" style="width: auto; height: 300px;">
+            </div>
+        </div> 
+    </div>
+</div>
+<table align="center" ng-controller="myClubs" border="1">
+    <tr ng-repeat="result in results">
+        <div class="middle">
+        <h4>Today's hottest matches</h4>
+        <td>{{result.Club}}</td>
+        <td>{{result.Results}}</td>  
+        </div>
+    </tr>
+</table>
+

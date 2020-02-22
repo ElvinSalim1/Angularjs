@@ -1,0 +1,37 @@
+body{
+    background-color: orange;
+}
+.container1, .middle, .games table tr td{
+    text-align: center;
+}
+.btn-primary {
+    margin: 0 0 1rem 0;
+}
+.elave{
+    margin: 1rem 0;
+    font-size: 1.5rem;
+}
+.ese{
+    margin: 0 0 20rem 0;
+}
+table td{
+    padding: 1rem 1.3rem;
+    margin: 2rem;
+}
+footer{
+    margin: 2rem 0 0 0;
+}
+.middle h4, .reng h2, .reng h4{
+    margin: 2rem;
+    color: blue;
+}
+.navbar-brand{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+footer a {
+    color: white;
+}
+footer h4 {
+    padding: 1rem 0;
+}
